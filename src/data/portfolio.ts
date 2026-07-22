@@ -31,23 +31,10 @@ export type JourneyItem = {
 
 export const journey: readonly JourneyItem[] = [
   {
-    year: '2015', endYear: '2019', kind: 'education', role: 'BSc Computer Science',
-    place: 'Xavier University – Ateneo de Cagayan · Philippines', dates: 'June 2015 — March 2019',
-    summary: 'Graduated Cum Laude, forming the technical foundation for a career in production software engineering.',
-    details: ['Outstanding Graduate Award', 'BPI-DOST Science Award', 'Kinaadman Support for Student Research Award'],
-  },
-  {
-    year: '2019', endYear: '2022', kind: 'work', role: 'Software Engineer',
-    place: 'FactSet Philippines, Inc.', dates: 'August 2019 — August 2022', emphasis: true,
-    summary: 'Built large-scale financial data extraction, transformation, validation, and production systems—progressing into lead engineering responsibilities for key product components.',
-    details: ['Led data-processing and validation workflows for client-facing financial analytics platforms.', 'Reviewed code for 4+ engineers and promoted performance, readability, and maintainability.', 'Supported databases, data migrations, integrity checks, and on-call production issues.'],
-    tools: ['Python', 'Perl', 'MySQL', 'SQL Server', 'Git', 'Perforce', 'JIRA'],
-  },
-  {
-    year: '2021', endYear: '2022', kind: 'work', role: 'Instructor',
-    place: 'Xavier University – Ateneo de Cagayan', dates: 'August 2021 — August 2022',
-    summary: 'Taught undergraduate computer science while working professionally as a software engineer.',
-    details: ['Object-Oriented Programming', 'Data Structures', 'Human-Computer Interaction · 30+ students'],
+    year: '2024', endYear: '2026', kind: 'education', role: 'MSc Info-Bionics Engineering',
+    place: 'Pázmány Péter Catholic University · Hungary', dates: 'February 2024 — February 2026',
+    summary: 'Advanced technical study completed alongside professional engineering work, specializing in Bionics Interfaces.',
+    details: ['Graduated', 'Stipendium Hungaricum Scholarship', 'Bionics Interfaces specialization'],
   },
   {
     year: '2022', endYear: 'NOW', kind: 'work', role: 'Software Engineer',
@@ -57,12 +44,25 @@ export const journey: readonly JourneyItem[] = [
     tools: ['Python', 'Perl', 'Selenium', 'ETL / ELT', 'AWS', 'CodeCommit', 'CI/CD'],
   },
   {
-    year: '2024', endYear: '2026', kind: 'education', role: 'MSc Info-Bionics Engineering',
-    place: 'Pázmány Péter Catholic University · Hungary', dates: 'February 2024 — February 2026',
-    summary: 'Advanced technical study completed alongside professional engineering work, specializing in Bionics Interfaces.',
-    details: ['Graduated', 'Stipendium Hungaricum Scholarship', 'Bionics Interfaces specialization'],
+    year: '2021', endYear: '2022', kind: 'work', role: 'Instructor',
+    place: 'Xavier University – Ateneo de Cagayan', dates: 'August 2021 — August 2022',
+    summary: 'Taught undergraduate computer science while working professionally as a software engineer.',
+    details: ['Object-Oriented Programming', 'Data Structures', 'Human-Computer Interaction · 30+ students'],
   },
-] as const
+  {
+    year: '2019', endYear: '2022', kind: 'work', role: 'Software Engineer',
+    place: 'FactSet Philippines, Inc.', dates: 'August 2019 — August 2022', emphasis: true,
+    summary: 'Built large-scale financial data extraction, transformation, validation, and production systems—progressing into lead engineering responsibilities for key product components.',
+    details: ['Led data-processing and validation workflows for client-facing financial analytics platforms.', 'Reviewed code for 4+ engineers and promoted performance, readability, and maintainability.', 'Supported databases, data migrations, integrity checks, and on-call production issues.'],
+    tools: ['Python', 'Perl', 'MySQL', 'SQL Server', 'Git', 'Perforce', 'JIRA'],
+  },
+  {
+    year: '2015', endYear: '2019', kind: 'education', role: 'BSc Computer Science',
+    place: 'Xavier University – Ateneo de Cagayan · Philippines', dates: 'June 2015 — March 2019',
+    summary: 'Graduated Cum Laude, forming the technical foundation for a career in production software engineering.',
+    details: ['Outstanding Graduate Award', 'BPI-DOST Science Award', 'Kinaadman Support for Student Research Award'],
+  },
+] as const;
 
 export const capabilityLines = [
   ['BUILD', 'Python · Perl · SQL'],
