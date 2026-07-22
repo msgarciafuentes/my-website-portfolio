@@ -1,21 +1,32 @@
 {
-  "name": "my-website-portfolio",
-  "version": "1.0.0",
-  "description": "A repository for my web page portfolio",
-  "main": "index.js",
+  "name": "marvin-fuentes-portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "typecheck": "tsc -b --pretty false"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/msgarciafuentes/my-website-portfolio.git"
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/msgarciafuentes/my-website-portfolio/issues"
-  },
-  "homepage": "https://github.com/msgarciafuentes/my-website-portfolio#readme"
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "typescript-eslint": "latest",
+    "tailwindcss": "latest",
+    "@tailwindcss/vite": "latest"
+  }
 }
